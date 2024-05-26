@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@microfrontend-root/root-config": "$MFE_ROOT_CONFIG",
+    "@microfrontend-dashboard": "$MFE_DASHBOARD",
+    "@microfrontend-navbar": "$MFE_NAVBAR",
+    "@microfrontend-jobpostings": "$MFE_JOBPOSTINGS",
+    "@microfrontend-announcements": "$MFE_ANNOUNCEMENTS",
+    "@mfe-lib/styleguide": "$MFE_STYLEGUIDE"
+  }
+}
