@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@microfrontend-root/root-config": "$MFE_ROOT_CONFIG",
+    "@microfrontend-root": "$MFE_ROOT_CONFIG",
     "@microfrontend-dashboard": "$MFE_DASHBOARD",
     "@microfrontend-navbar": "$MFE_NAVBAR",
     "@microfrontend-jobpostings": "$MFE_JOBPOSTINGS",

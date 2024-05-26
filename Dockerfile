@@ -8,6 +8,10 @@ RUN rm -rf /usr/share/nginx/html/*
 
 COPY ./import-map.template.json /usr/share/nginx/html
 
+COPY ./entrypoint.sh /usr/local/bin/
+
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
 EXPOSE 80
 
-CMD ["/bin/sh", "-c", "envsubst < /usr/share/nginx/html/import-map.template.json > /usr/share/nginx/html/import-map.json && exec nginx -g 'daemon off;'"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
