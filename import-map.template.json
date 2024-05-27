@@ -5,6 +5,7 @@
     "@microfrontend-navbar": "$MFE_NAVBAR",
     "@microfrontend-jobpostings": "$MFE_JOBPOSTINGS",
     "@microfrontend-announcements": "$MFE_ANNOUNCEMENTS",
+    "@microfrontend-home": "$MFE_HOME",
     "@mfe-lib/styleguide": "$MFE_STYLEGUIDE"
   }
 }
